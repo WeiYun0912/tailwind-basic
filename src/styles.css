@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply relative overflow-hidden rounded-lg bg-white shadow-lg;
+}
+
+.badge {
+  @apply absolute top-0 ml-2 mt-2 flex items-center justify-center rounded-full bg-secondary-100 p-2 text-sm font-bold uppercase text-secondary-200;
+}
+
+.btn {
+  @apply cursor-pointer rounded-full py-2 px-3 text-xs font-bold uppercase tracking-wider;
+}
